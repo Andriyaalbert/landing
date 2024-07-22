@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Cake Hut</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+</head>
+
+<body>
+	<header>
+    <div class="logo">
+      
+      </div>
+	  
+	  <nav>
+		<ul>
+		  <li><a href="#hero">Home</a></li>
+		  <li><a href="#about dark-theme">About</a></li>
+		  <li><a href="#menu">Menu</a></li>
+		  <li><a href="#contact">Contact</a></li>
+		</ul>
+    <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+	  </nav>
+	</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Cake Hut</h1>
+    <p>Experience the Taste of Perfection</p>
+    <a href="#menu" class="btn">Explore Our Menu</a>
+  </div>
+</section>
+
+<section class="about dark-theme">
+  <div class="about-content">
+    <h2>About Cake Hut</h2>
+    <p>Welcome to Cake Hut, where every cake is a work of art! We specialize in crafting delicious, custom-made cakes for all occasions. From weddings and birthdays to anniversaries and corporate events, our expert bakers use only the finest ingredients to create desserts that are as beautiful as they are delicious. </p>
+    <p> Visit us to experience a taste of sweetness in every bite!</p>
+    <a href="#menu" class="btn">Explore Our Menu</a>
+  </div>
+  <div class="about-image">
+    <img src="abtcake.jpg" alt="About Image">
+  </div>
+</section>
+
+
+<section class="menu">
+  <h2>Our Menu</h2>
+  <div class="menu-items">
+    <div class="menu-item">
+      <img src="bforest.jpg">
+      <h3>Black forest</h3>
+      <p>Decadent chocolate cake layered with whipped cream and cherries, topped with chocolate shavings. A classic treat with the perfect balance of sweet and tart.</p>
+    </div>
+    <div class="menu-item">
+      <img src="cheese.jpg">
+      <h3>Chocolate Cheese </h3>
+      <p>A creamy cheesecake blended with rich chocolate, set on a crunchy graham cracker crust. It offers a perfect harmony of smooth and crunchy textures.</p>
+    </div>
+    <div class="menu-item">
+      <img src="redvelvet.jpeg">
+      <h3>Red Velvet</h3>
+      <p>A moist red velvet cake with layers of cream cheese frosting. This classic dessert is known for its vibrant color and rich, velvety texture.</p>
+    </div>
+  </div>
+</section>
+<section class="contact">
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>24 Gandhi nagar ,Shobha Tower,Pune</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-phone-alt"></i>
+        <p>+91 2345678</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <p>info@cakehut.com</p>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+  
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const menuToggle = document.getElementById('mobile-menu');
+      const navMenu = document.querySelector('nav ul');
+
+      menuToggle.addEventListener('click', function () {
+        navMenu.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+
+
+</body>
+</html>
